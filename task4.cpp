@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
@@ -24,12 +23,9 @@ int main()
 		cout << a[i] << ", " << a[j] << ", ";
 	}
 
-	if (i == j)
-	{
-		cout << a[j];
-	}
+	if (i == j) cout << a[j];
 
-	cout << "." << endl;
+	if (n % 2 == 1) cout << "." << endl;
 
 	system("pause");
 	return 0;
